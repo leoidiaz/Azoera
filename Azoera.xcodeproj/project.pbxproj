@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294431D52470746400348F40 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294431D42470746400348F40 /* WelcomeViewController.swift */; };
+		294431D72470806000348F40 /* AzoeraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294431D62470806000348F40 /* AzoeraTextField.swift */; };
+		294431D9247082DF00348F40 /* AzoeraLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294431D8247082DF00348F40 /* AzoeraLabel.swift */; };
+		294431DB2470836500348F40 /* LightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294431DA2470836500348F40 /* LightLabel.swift */; };
+		294431DD247083CB00348F40 /* BoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294431DC247083CB00348F40 /* BoldLabel.swift */; };
+		294431DF2470864D00348F40 /* AzoeraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294431DE2470864D00348F40 /* AzoeraButton.swift */; };
 		F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */; };
 		F73DEEA9223AF4550023C6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEA7223AF4550023C6C6 /* Main.storyboard */; };
 		F73DEEAB223AF4570023C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73DEEAA223AF4570023C6C6 /* Assets.xcassets */; };
@@ -19,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294431D42470746400348F40 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		294431D62470806000348F40 /* AzoeraTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoeraTextField.swift; sourceTree = "<group>"; };
+		294431D8247082DF00348F40 /* AzoeraLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoeraLabel.swift; sourceTree = "<group>"; };
+		294431DA2470836500348F40 /* LightLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLabel.swift; sourceTree = "<group>"; };
+		294431DC247083CB00348F40 /* BoldLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldLabel.swift; sourceTree = "<group>"; };
+		294431DE2470864D00348F40 /* AzoeraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzoeraButton.swift; sourceTree = "<group>"; };
 		F73DEEA0223AF4550023C6C6 /* Azoera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azoera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73DEEA3223AF4550023C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73DEEA8223AF4550023C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294431D22470744F00348F40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				294431D32470745700348F40 /* View Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		294431D32470745700348F40 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				294431D42470746400348F40 /* WelcomeViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		F73DEE97223AF4550023C6C6 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +90,7 @@
 		F73DEEA2223AF4550023C6C6 /* Azoera */ = {
 			isa = PBXGroup;
 			children = (
+				294431D22470744F00348F40 /* Controllers */,
 				F763B96A22526928005697E5 /* CustomUI */,
 				F763B968225268F2005697E5 /* Resources */,
 			);
@@ -86,6 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				F763B96B2252693E005697E5 /* StyleGuide.swift */,
+				294431D62470806000348F40 /* AzoeraTextField.swift */,
+				294431D8247082DF00348F40 /* AzoeraLabel.swift */,
+				294431DC247083CB00348F40 /* BoldLabel.swift */,
+				294431DA2470836500348F40 /* LightLabel.swift */,
+				294431DE2470864D00348F40 /* AzoeraButton.swift */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -132,6 +166,7 @@
 				TargetAttributes = {
 					F73DEE9F223AF4550023C6C6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -175,8 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294431D52470746400348F40 /* WelcomeViewController.swift in Sources */,
 				F73DEEA4223AF4550023C6C6 /* AppDelegate.swift in Sources */,
 				F763B96C2252693E005697E5 /* StyleGuide.swift in Sources */,
+				294431DF2470864D00348F40 /* AzoeraButton.swift in Sources */,
+				294431DB2470836500348F40 /* LightLabel.swift in Sources */,
+				294431D72470806000348F40 /* AzoeraTextField.swift in Sources */,
+				294431D9247082DF00348F40 /* AzoeraLabel.swift in Sources */,
+				294431DD247083CB00348F40 /* BoldLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +371,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Azoera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -347,7 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Azoera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
